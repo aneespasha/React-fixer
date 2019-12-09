@@ -1,0 +1,15 @@
+.Header{
+  width: 100%;
+  background-color: red;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  padding: 15px;
+  z-index: 1;
+
+  .logo {
+    a {
+      color: #fff;
+    }
+  }
+}
