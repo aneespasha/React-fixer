@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from './Formcontact.scss'
+import './Formcontact.scss'
 import {Col, Container, Row, Button, Form} from "react-bootstrap";
 
 

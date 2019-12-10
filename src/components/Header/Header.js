@@ -1,10 +1,8 @@
-import React, { Component } from 'react'
-import styles from './Header.scss'
+import React, { Component } from 'react';
+import './Header.scss';
 import Nav from "../Nav/Nav";
 import {Link} from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
-
-
 
 
 class Header extends Component {

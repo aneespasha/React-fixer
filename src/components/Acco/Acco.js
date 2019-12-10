@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-import styles from './Acco.scss'
+import './Acco.scss'
 import {Accordion, Card, Button} from 'react-bootstrap'
 
 class Acco extends Component {

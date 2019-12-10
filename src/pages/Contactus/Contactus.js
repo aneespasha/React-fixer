@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from './Contactus.scss'
+import './Contactus.scss'
 import Formcontact from "../../components/Formcontact/Formcontact";
 
 class Contactus extends Component {

@@ -1,6 +1,6 @@
 import React, {Component, useState} from 'react'
 import PropTypes from 'prop-types'
-import styles from './Mod.scss'
+import './Mod.scss'
 import {Modal, Button} from 'react-bootstrap'
 
 function Mod() {

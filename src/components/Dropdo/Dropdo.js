@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-import styles from './Dropdo.scss'
+import './Dropdo.scss'
 import {DropdownButton, ButtonToolbar, Dropdown} from 'react-bootstrap'
 
 class Dropdo extends Component {

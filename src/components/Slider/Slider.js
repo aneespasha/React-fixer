@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from './Slider.scss'
+import './Slider.scss'
 import Carousel from 'react-bootstrap/Carousel';
 
 
