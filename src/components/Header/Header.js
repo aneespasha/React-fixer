@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './Header.scss';
 import Nav from "../Nav/Nav";
 import {Link} from "react-router-dom";
-import { Container, Row, Col } from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 
 
 class Header extends Component {
@@ -10,16 +10,7 @@ class Header extends Component {
         return (
             <div className="Header">
                 <Container>
-                    <Row>
-                        <Col xs={12} md={4}>
-                            <div className="logo">
-                                <Link to="/">LOGO</Link>
-                            </div>
-                        </Col>
-                        <Col xs={6} md={8}>
-                            <Nav/>
-                        </Col>
-                    </Row>
+                    <Nav/>
                 </Container>
             </div>
         );

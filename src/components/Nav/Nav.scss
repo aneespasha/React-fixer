@@ -1,15 +1,25 @@
-.Nav{
-  .navList {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    li {
-      margin: 0 15px;
-      a {
-        color: #fff;
-        font-size: 16px;
+.Nav {
+  width: 100%;
+
+  .navbar {
+    .mr-auto {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      height: 100vh;
+      padding-top: 100px;
+      @media screen and (min-width: 992px) {
+        flex-direction: row;
+        height: auto;
+        padding-top: inherit;
+      }
+    }
+
+    a {
+      margin: 0 20px 15px;
+      color: #fff;
+      @media screen and (min-width: 992px) {
+        margin: 0 20px;
       }
     }
   }
